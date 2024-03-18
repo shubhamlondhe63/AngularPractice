@@ -1,0 +1,5 @@
+<div class="parent">
+    <h1>Parent Component</h1>
+    <app-child [myInput]="inputVariable" (myOutput)="getData($event)"></app-child>
+    <h1> {{receivingData}}</h1>
+</div>

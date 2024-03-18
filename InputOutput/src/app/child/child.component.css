@@ -1,0 +1,43 @@
+/* Styles for the child component */
+.child {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the h2 element inside the child component */
+  .child h2 {
+    font-size: 24px;
+    color: #333; /* Dark text color */
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the h1 element inside the child component */
+  .child h1 {
+    font-size: 32px;
+    color: #007bff; /* Blue color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the button inside the child component */
+  .child button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff; /* Blue background color for the button */
+    color: #ffffff; /* White text color for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  .child button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
