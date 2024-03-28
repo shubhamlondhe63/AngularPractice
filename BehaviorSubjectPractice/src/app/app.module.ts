@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NameInputComponent } from './name-input/name-input.component';
 import { GreetingMessageComponent } from './greeting-message/greeting-message.component';
 import { NameStateService } from './name-state.service';
+import { AnotherComponentComponent } from './another-component/another-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NameInputComponent,
-    GreetingMessageComponent
+    GreetingMessageComponent,
+    AnotherComponentComponent
   ],
   imports: [
     BrowserModule,
